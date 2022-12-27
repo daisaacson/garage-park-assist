@@ -10,6 +10,26 @@ Based on items available at [Mirco Center](https://www.microcenter.com "Micro Ce
 | [Neo Pixel 12 LED ring](https://www.microcenter.com/product/655109/adafruit-industries-neopixel-ring-12-x-ws2812-5050-rgb-led-with-integrated-drivers) | LEDs | WS2812 5050 | $7.49 |
 | [Inland ultrasonic 3x](https://www.microcenter.com/product/613881/inland-hr-sr04-blue-ultrasonic-module-3-pack) | ultra sonic sensor | HR-SR04 | $7.99 |
 
+## Requirements
+
+ - https://github.com/rsc1975/micropython-hcsr04
+
+
+## PINS
+
+1. GP0: WS2812: DIN
+6. GP4: HC-SR04: Trig (I2C0 SDA)
+7. GP5: HC-SR04: Echo (I2C0 SCL)
+11. GP8: eInk: D/C (SPI1 RX)
+12. GP9: eInk: CS  (SPI1 CSn)
+14. GP10: eInk: CLK  (SPI1 SCK)
+15. GP11: eInk: SDI (SPI1 TX) 
+16. GP12: eInk: RES
+17. GP13: eInk: BUSY
+40. VBUS - power other devices
+38. Ground
+
+
 ## Inspiration Videos
 
 https://youtu.be/HqqlY4_3kQ8
