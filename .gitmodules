@@ -1,0 +1,3 @@
+[submodule "lib/hcsr04"]
+	path = lib/hcsr04
+	url = https://github.com/rsc1975/micropython-hcsr04
