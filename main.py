@@ -1,8 +1,11 @@
 from time import sleep
 from hcsr04.hcsr04 import HCSR04
 
-sensor = HCSR04(trigger_pin=4, echo_pin=5)
-distance = sensor.distance_cm()
+# GPIO PINs
+HCSR04_TRIGGER = 4
+HCSR04_ECHO = 5
+
+sensor = HCSR04(trigger_pin=HCSR04_TRIGGER, echo_pin=HCSR04_ECHO)
 
 while True:
     try:
